@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightyellow;
+    padding: 90px;
+}
+
+.hello{
+   font-size: 30px;
+   font-family: serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+span{
+    color: #fcbf49;
+}
+.lor{
+    font-size: 20px;
+}
+
+.boxnuud{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.box2{
+    height: 35vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0 0 10px 0 black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box3{
+    height: 35vh;
+    width: 20vw;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+}
+img{
+    border-radius: 5px;
+}
+.pigeon{
+    height: 250px;
+    width: 100%;
+}
+.muur{
+    height: 250px;
+    width: 100%;
+}
+.nohoi{
+    height: 250px;
+    width: 100%;
+}
+.vlog{
+margin: 10px;
+font-size: 20px;
+font-weight: 800;
+color: darkgrey;
+}
+p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.rm{
+    font-size: 20px;
+    color: #fcbf49;
+    margin: 10px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.rm:hover{
+    text-decoration: solid;
+}
